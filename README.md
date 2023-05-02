@@ -3,7 +3,17 @@
 Claire is a chatbot for Hydar-XYZ. It is designed to be more advanced than the previous chatbot, Raye, in terms of generating sentences. On the other hand, it lacks a lot Raye's functionality with respect to determining whether one sentence is similar to another.
 
 ## How it works
-Claire utilizes several algorithms, and several txt documents for storing training data. First, I'll go through the text documents.
+Claire utilizes several algorithms, and several txt documents for storing training data. First, I'll go through the files.
+
+### .py files
+These are
+  claire
+  train
+  train2
+
+**claire.py** is the main file. To use it, type `python claire.py` in the directory where claire is located.
+
+**train.py** and **train2.py** are training algorithms which are used to create more data which is used in classification of a sentence as sense or nonsense.
 
 ### .txt files
 They are:
