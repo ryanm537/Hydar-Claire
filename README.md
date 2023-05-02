@@ -7,9 +7,9 @@ Claire utilizes several algorithms, and several txt documents for storing traini
 
 ### .py files
 These are
-  claire
-  train
-  train2
+  claire,
+  train, and
+  train2.
 
 **claire.py** is the main file. To use it, type `python claire.py` in the directory where claire is located.
 
@@ -17,13 +17,13 @@ These are
 
 ### .txt files
 They are:
-  word pair weights
-  part of speech weights
-  parts of speech
-  questions
-  responses
-  training data 4
-  training data 2
+  word pair weights,
+  part of speech weights,
+  parts of speech,
+  questions,
+  responses,
+  training data 4, and
+  training data 2.
 
 **claire_word_pair_weights** and **claire_part_of_speech_weights** are weights obtained from training. They are used in ascertaining whether a sentence is sense or nonsense. One uses parts of speech and the other uses pairs of words.
 
