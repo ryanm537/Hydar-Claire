@@ -7,7 +7,7 @@ import random
 #for i in file2:
 #	file.append(i)
 	
-file = str(open('training_data_4.txt', 'r', encoding = 'utf-8').read()).split('\n')
+file = str(open('claire_training_data_4.txt', 'r', encoding = 'utf-8').read()).split('\n')
 #print(file)
 
 
@@ -94,7 +94,7 @@ for key, val in pairFreq.items():
 #if a sentence is classified correctly, the weights are correct. Nothing needs to be done.
 
 
-file = str(open('training_data5.txt', 'r').read()).split('\n')
+file = str(open('claire_training_data_5.txt', 'r').read()).split('\n')
 
 
 iterations = 200
