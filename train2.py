@@ -156,7 +156,7 @@ for iter in range(iterations):
 	print("accuracy: " + str(accuracy))
 
 #write results to a file
-newFile = open("word_pair_weights.txt", 'w')
+newFile = open("claire_word_pair_weights.txt", 'w')
 for k, v in pairWeights.items():
 	newFile.write(str(k) + ' ' + str(v) + '\n')
 
