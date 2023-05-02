@@ -186,7 +186,7 @@ for iterations in range(num_iter):
 	print("accuracy: " + str(accuracy))
 
 #write results to a file
-newFile = open("part_of_speech_weights.txt", 'w')
+newFile = open("claire_part_of_speech_weights.txt", 'w')
 for k, v in weights.items():
 	newFile.write(str(k) + ' ' + str(v) + '\n')
 
