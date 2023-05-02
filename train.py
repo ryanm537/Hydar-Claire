@@ -54,7 +54,7 @@ posFreq = {}
 posFreq[lookupPos('SOL')] = 0
 posFreq[lookupPos('EOL')] = 0
 #file = str(open('raye_responses.txt', 'r', encoding = 'utf-8').read()).split('\n')
-file = str(open('training_data_4.txt', 'r', encoding = 'utf-8').read()).split('\n')
+file = str(open('claire_training_data_4.txt', 'r', encoding = 'utf-8').read()).split('\n')
 #for i in file2:
 #	file.append(i)
 
@@ -118,7 +118,7 @@ for k, v in featureFreq.items():
 #if it incorrectly marked a sensible sentence as nonsense, increase weights for all pairs  in that sentence
 #if it incorrectly maked a nonsense sentence as sense, decrease weights for all pairs in that sentence
 
-training_data = str(open('training_data5.txt', 'r', encoding = 'utf-8').read()).split('\n')
+training_data = str(open('claire_training_data_5.txt', 'r', encoding = 'utf-8').read()).split('\n')
 
 num_iter = 200
 for iterations in range(num_iter):
