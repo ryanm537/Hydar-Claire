@@ -1,7 +1,8 @@
 # Hydar-Claire
+## What it is
 Claire is a chatbot for Hydar-XYZ. It is designed to be more advanced than the previous chatbot, Raye, in terms of generating sentences. On the other hand, it lacks a lot Raye's functionality with respect to determining whether one sentence is similar to another.
 
-## How
+## How it works
 Claire utilizes several algorithms, and several txt documents for storing training data. First, I'll go through the text documents.
 
 ### txt files
