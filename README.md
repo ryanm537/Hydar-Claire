@@ -20,6 +20,8 @@ Parts of speech is a corpus of most English words with their corresponding part 
 
 Questions and Responses correspond to data obtained from users on hydar.xyz. Each line in Responses correspones to a response made to a question in Questions.
 
+Training data 5 is for training weights of word pairs and part of speech pairs. It is a collection of sentences, where the first character is either 0 or 1 corresponding to whether the sentence should make sense (0=nonsense, 1=sense)
+
 Training data 4 is a big file on the live version. It is a collection of sentences. For github, it and several others have been chopped down to samples in order to not leak personal information.
 
 Training data 2 is for what I call context mapping. It is a collection of sentences and their hand-made context maps. More on all that later.
