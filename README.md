@@ -70,5 +70,15 @@ Data for train.py is saved in part_of_speech_weights.txt, and data for train2.py
 ### learning rates
 Measured by accuracy (correct/total), the learning rate was graphed.
 Accuracy was measured after all data had been analyzed, which meant that the algorithm had already adjusted weights and became more accurate before the total accuracy was counted, so they start out quite high. However, the algorithms still perform better over a number of iterations.
+
+It can also be misleading, because iterations represent iterations over the same dataset. Additionally, nonsensical sentences were generated completely randomly. So, the high accuracy doesn't really translate to real world accuracy.
+
 ![](learning_rate_parts_of_speech_algo.png)
 ![](learning_rate_word_pair_algo.png)
+
+### results?
+It ended up with mixed results, but some of that can be attributed that to hardware and data limitations.
+If the data for the training algorithms were hand curated, rather than randomly generated, it could be tuned to work better for real sentences.
+Also, a hard limitation of 20 seconds was selected for the generation of sentences. At that point, the closest fitting sentence is selected. The amount this sentence's context actually matches the desired context map is usually quite low. If the algorithm were allowed more time to run, it could generate better sentences.
+
+![](claire_example.png)
