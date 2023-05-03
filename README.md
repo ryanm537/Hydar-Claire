@@ -63,7 +63,7 @@ A string containing an integer distance between two words, followed by those two
 
 ### Main Algorithm
 This diagram should be a fairly intuitive way of understanding the main algorithm
-![](claire_main_algo.png)
+![](claire_images/claire_main_algo.png)
 
 ### Training algorithms
 **train.py** determines if a sentence makes sense using part of speech pairs as features. 
@@ -84,12 +84,12 @@ Accuracy was measured after all data had been analyzed, which meant that the alg
 
 It can also be misleading, because iterations represent iterations over the same dataset. Additionally, nonsensical sentences were generated completely randomly. So, the high accuracy doesn't really translate to real world accuracy.
 
-![](learning_rate_parts_of_speech_algo.png)
-![](learning_rate_word_pair_algo.png)
+![](claire_images/learning_rate_parts_of_speech_algo.png)
+![](claire_images/learning_rate_word_pair_algo.png)
 
 ### Results?
 It ended up with mixed results, but some of that can be attributed that to hardware and data limitations.
 If the data for the training algorithms were hand curated, rather than randomly generated, it could be tuned to work better for real sentences.
 Also, a hard limitation of 20 seconds was selected for the generation of sentences. At that point, the closest fitting sentence is selected. The amount this sentence's context actually matches the desired context map is usually quite low. If the algorithm were allowed more time to run, it could generate better sentences.
 
-![](claire_example.png)
+![](claire_images/claire_example.png)
