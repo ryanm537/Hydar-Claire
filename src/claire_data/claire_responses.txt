@@ -1,0 +1,5 @@
+example line
+example line2
+each line is a sentence
+sentences in this file are considered useable for the bot
+these in particular are responses that correspond to questions in claire_questions
